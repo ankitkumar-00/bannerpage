@@ -1,0 +1,214 @@
+ body{
+    background-color: rgb(239, 52, 152);
+    
+ }
+ .head{
+    height: 150px;
+    width: 100%;
+  background-color: rgb(186, 255, 25);
+  color: rgb(60, 51, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 5px double  rgb(201, 190, 40);
+}
+#p1{
+    font-size: 35px;  
+}
+.p2{
+    font-size: 40px;
+    color:rgb(208, 46, 14);
+}
+
+.continer{
+    gap: top 150px;
+   background-color:white;
+    display: flex;
+    flex-direction: row;
+    color:  rgb(199, 1, 1);
+    border: 3px solid aquamarine;
+    margin-top: 5px;
+}
+.right1 img{
+    height: 70vh;
+    width: 60vh;
+    border: 5px solid powderblue;
+    border-radius: 17px 0px 0px 17px;
+}
+.left1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#p3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.continer2{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 4, 4);
+    font-size: 20px;
+    border: 3px solid rgb(111, 194, 235);
+    margin-top:5px;
+}.left2 img{
+    height: 400px;
+    width: 400px;
+    border: 3px dotted palevioletred;
+    border-radius: 40%;
+}
+#p5{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.container3{
+    background-color: rgb(159, 241, 214);
+    color: blueviolet;
+    font-size: 20px;
+    font-family:cursive;
+    margin-top: 5px;
+    border-radius: 17px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    #play{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+}
+#play{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline purple;
+}
+.left3 img{
+    height: 500px;
+    width: 500px;
+    border: 7px double red;
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 50px;
+}.right3{
+    font-size: medium;
+}
+.grid1{
+    background-color: rgb(227, 122, 60);
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    border: 4px solid brown;
+
+
+}
+#li{
+   display:flex;
+   justify-content: center;
+    align-items: center;
+    text-decoration: underline black;
+}
+.grid2{
+    background-color: rgb(124, 207, 88);
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    border:4px solid rgb(18, 152, 18);
+
+}#ch1{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     text-decoration: underline black;
+}
+.charity img{
+    height: 200px;
+    width: 150px;
+    border: 3px double blue;
+    border-radius: 20%;
+    margin-top: 10px;
+}.grid3{
+    background-color: rgb(91, 234, 187);
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    border: 4px solid brown;
+    color:rgb(15, 37, 199)
+}
+.invest img{
+    height: 200px;
+    width: 150px;
+    border: 3px solid purple;
+    border-radius: 15%;
+    margin-top: 15px;
+}
+#fc{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline rgb(35, 24, 198);
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 485px 485px 485px;
+}
+.grid4{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+
+}
+.about{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+
+}
+.about1{
+    font-size: 20px;
+    
+}
+@media(min-width:10px)and (max-width:400px){
+    .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+}
+
+
+
+
+
